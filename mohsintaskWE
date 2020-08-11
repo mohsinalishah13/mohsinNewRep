@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> mohsin ali shah</title>
+	<script language="javascript">
+
+
+function confirmme()
+{
+
+var name=prompt("please enter your name","name");
+
+
+if(confirm()==true){
+document.write("your name: " + name)
+}
+else{
+	document.write("your name is anonymous")
+}
+}
+confirmme()
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
